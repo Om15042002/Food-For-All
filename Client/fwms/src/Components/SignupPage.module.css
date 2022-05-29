@@ -1,0 +1,24 @@
+.btnred{
+    background-color: red;
+    color: white;
+    margin: 1%;
+}
+.btnred:hover{
+    background-color: rgb(218, 5, 5);
+    color: white;
+}
+.mt{
+    margin-top: 3%;
+}
+.signupformgroup{
+    color: black; 
+}
+.btnclose{
+    position: absolute ;
+    right: 2%;
+}
+.h2{
+    color: rgb(240, 63, 63);
+    text-align: center;
+    font-weight: bold;
+}

@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.image{
+    position: fixed;
+    background-image: url('../Images/Homepage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+} 
+ 
+.homeformgroup{
+    color: white;
+    margin-top: 5%;
+}
+
+.fm{
+    margin-top: 8%;
+}
+.quotes{
+    font-size: 2vw; 
+    font-weight: bolder;
+    color: white;
+    margin-left: 10%;
+    margin-top: 20%;
+    line-height: 2.5vw;
+}
+.btnred{
+    background-color: red;
+    color: white;
+}
+.btnred:hover{
+    background-color: rgb(218, 5, 5);
+    color: white;
+}
+.btnclose{
+    position: absolute ;
+    right: 2%;
+}
+.warn{
+    margin-left: 4%;
+}
+@media screen and (max-width:798px){
+    .colmd6{
+        flex-grow: 1;
+        /* width: 100%; */
+    }
+    .quotes{
+        font-size: 4vw;
+        margin-top: 3%;
+        line-height: 5vw;
+    }
+}
+@media screen and (max-width:400px){
+    .quotes{
+        font-size: 5vw;
+        margin-top: 0%;
+        line-height: 6vw;
+    }
+}

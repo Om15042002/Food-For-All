@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.dashboard{
+        width: 270px;
+    }
+
+.dashboardlink{
+        display: flex;
+        align-items: center;
+    }
+
+.dashboardlink .right-icon{
+        display: inline-flex;
+        transition: all ease 0.5s;
+    }
+
+.dashboardlink[aria-expanded="true"] .right-icon{
+    transform: rotate(180deg);
+}
+
+@media  (min-width:850px){
+    /* body{overflow: auto !important;} */
+    main{
+        margin-left: 270px;
+    }
+    /* .offcanvasbackdrop::before{
+        display: none;
+    } */
+    .dashboard{
+        transform: none;
+        visibility: visible !important;
+        top: 56px;
+        background-color: black;
+    }
+    .bg{
+        color: white;
+    }
+}

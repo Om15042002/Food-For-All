@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.touch{
+    margin-top: 7%;
+}
+.mt6{
+    margin-top: 6%;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    margin-top: 2%;
+    margin-bottom: 7%;
+}
+.btnred{
+    background-color: red;
+    color: white;
+}
+.btnred:hover{
+    background-color: rgb(218, 5, 5);
+    color: white;
+}
+.btnclose{
+    position: absolute ;
+    right: 2%;
+}
+@media screen and (max-width:768px){
+    .container{
+        margin-left: 10%;
+    }
+    .colmd6{
+        margin-top: 5%;
+    }
+    .contactformgroup{
+        margin-top: 5%;
+    }
+}

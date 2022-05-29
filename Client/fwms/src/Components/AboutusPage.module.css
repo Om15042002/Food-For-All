@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.first{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 900;
+}
+.title{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 2vw;
+    font-weight: 900;
+}
+.fig1{
+    margin-left: 5%;
+    width: 60%;
+    height: 60%;
+}
+.fig2{
+    width: 70%;
+    height: 100%;
+}
+.fig3{
+    width: 80%;
+    height: 100%;
+}
+.figurecaption{
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+}
+@media screen and (max-width:768px){
+    .figure{
+        margin-left: 7%;
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width:1000px){
+    .first{
+        font-size: 5vw;
+    }
+    .title{
+        font-size: 3vw;
+    }   
+}
+@media screen and (max-width:400px){
+    .first{
+        font-size: 7vw;
+    }
+    .title{
+        font-size: 5vw;
+    }   
+}

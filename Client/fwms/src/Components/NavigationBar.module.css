@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navigation{ 
+    position: fixed;
+    background-color: red;
+    padding-left: 0%; 
+    top: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+.navlink{
+    margin-left: 30px;
+} 
+.groupa{
+    text-decoration: none;
+    cursor: pointer;
+}
